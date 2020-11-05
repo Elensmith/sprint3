@@ -1,0 +1,12 @@
+.places__image {
+    width: 47.4%;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 535px) {
+    .places__image {
+        width: 100%;
+    }
+}
+

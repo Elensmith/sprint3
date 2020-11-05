@@ -1,0 +1,29 @@
+.cover__href {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 1184px;
+    align-items: center;
+    margin: auto;
+    margin-top: 102px;
+    text-decoration-line: none;
+    color: #FFFFFF;
+    
+}
+
+.cover__href::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    
+}
+
+.cover__href:hover::after {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+

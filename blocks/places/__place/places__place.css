@@ -1,0 +1,10 @@
+.places__place {
+    display: flex;
+    flex-direction: column;
+    padding-top: 72px;
+    width: 100%;
+}
+
+.places__place:first-child {
+    padding-top: 0px;
+}

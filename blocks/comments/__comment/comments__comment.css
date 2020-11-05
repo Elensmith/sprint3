@@ -1,0 +1,23 @@
+.comments__comment {
+    max-width: 382px;
+    padding-left: 19px;
+    
+
+}
+.comments__comment:first-child {
+    padding-left: 0px;
+}
+
+@media screen and (max-width: 770px) {
+    .comments__comment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        padding-left: 0px;
+        padding-bottom: 47px;
+    }
+    .comments__comment:last-of-type {
+        padding-bottom: 0px;
+    }
+}

@@ -1,0 +1,8 @@
+.video__item_one {
+    background-image: url('../../../../static/images/video_Image1.png');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+

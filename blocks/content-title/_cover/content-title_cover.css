@@ -1,0 +1,33 @@
+.content-title_cover {
+    z-index: 2;
+    max-width: 1094.27px;
+    padding-top: 274px;
+}
+
+@media screen and (max-width: 1041px) {
+    .content-title_cover {
+        padding-top: 195px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .content-title_cover {
+        font-size: 72px;
+        line-height: 78px;
+        padding-top: 165px;
+}
+}
+
+@media screen and (max-width: 730px) {
+    .content-title_cover {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .content-title_cover {
+        padding-top: 104px;
+    }
+}
+
+

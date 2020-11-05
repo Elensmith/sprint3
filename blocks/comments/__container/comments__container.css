@@ -1,0 +1,15 @@
+.comments__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1184px;
+    padding-top: 66px;
+}
+
+
+@media screen and (max-width: 770px) {
+    .comments__container {
+        flex-direction: column;
+    
+    }
+}

@@ -1,0 +1,5 @@
+.places__box-top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}

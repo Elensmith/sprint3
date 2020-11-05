@@ -1,0 +1,16 @@
+.video__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 66px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 644px) {
+    .video__container {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 24px;
+    }
+}
+

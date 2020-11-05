@@ -1,0 +1,7 @@
+.intro__content-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding-top: 30px;
+}

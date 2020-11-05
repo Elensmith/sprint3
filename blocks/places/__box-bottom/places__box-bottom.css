@@ -1,0 +1,14 @@
+.places__box-bottom {
+    display: flex;
+    flex-direction: row;
+    padding-top: 59px;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 535px) {
+    .places__box-bottom {
+        flex-direction: column;
+        width: 100%;
+    }
+}

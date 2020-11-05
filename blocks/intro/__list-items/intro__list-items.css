@@ -1,0 +1,15 @@
+.intro__list-items {
+    max-width: 383px;
+    align-self: flex-start;
+    padding-top: 24px;
+    padding-left: 0px;
+    margin: 0px;
+
+    
+}
+
+@media screen and (max-width: 535px) {
+    .intro__list-items {
+        padding-top: 32px;
+    }
+}

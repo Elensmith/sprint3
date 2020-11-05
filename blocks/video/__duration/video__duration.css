@@ -1,0 +1,26 @@
+.video__duration {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    max-width: 44px;
+    z-index: 2;
+    margin: 0px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-top: 94px;
+
+}
+
+@media screen and (max-width: 1100px) {
+    .video__duration {
+        padding-top: 54px; 
+    }
+}
+
+@media screen and (max-width: 904px) {
+    .video__duration {
+        padding-top: 42px; 
+    }
+}

@@ -1,0 +1,10 @@
+.lead__image-group {
+display: flex;
+max-width: 984px;
+
+margin: auto;
+position: relative;
+}
+
+
+
